@@ -243,20 +243,20 @@ class ContributionPage extends React.Component<Props, State> {
             this.isDone ? 'submittable' : '',
           ].join(' ')}>
           <div className="top">
-            <LocaleLink
+            {/* <LocaleLink
               to={user.account ? URLS.DASHBOARD : URLS.ROOT}
               className="back">
               <ArrowLeft />
-            </LocaleLink>
+            </LocaleLink> */}
 
-            <div className="links">
+            {/* <div className="links">
               <Localized id="speak">
                 <LocaleNavLink to={URLS.SPEAK} />
               </Localized>
               <Localized id="listen">
                 <LocaleNavLink to={URLS.LISTEN} />
               </Localized>
-            </div>
+            </div> */}
 
             {this.isLoaded && !errorContent ? (
               <div className={'counter ' + (isSubmitted ? 'done' : '')}>

@@ -515,11 +515,11 @@ class SpeakPage extends React.Component<Props, State> {
         <ContributionPage
           activeIndex={recordingIndex}
           errorContent={this.isUnsupportedPlatform && <UnsupportedInfo />}
-          extraButton={
-            <Localized id="unable-speak">
-              <LocaleLink to={URLS.LISTEN} />
-            </Localized>
-          }
+          // extraButton={
+          //   <Localized id="unable-speak">
+          //     <LocaleLink to={URLS.LISTEN} />
+          //   </Localized>
+          // }
           instruction={props =>
             error ? (
               <div className="error">
