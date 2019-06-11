@@ -327,7 +327,7 @@ class App extends React.Component {
       document.body.classList.add('mobile-safari');
     }
 
-    this.userLocales = negotiateLocales(navigator.languages);
+    this.userLocales = ['fr'];
   }
 
   async componentDidMount() {
