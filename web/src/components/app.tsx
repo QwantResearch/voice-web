@@ -256,7 +256,7 @@ let LocalizedPage: any = class extends React.Component<
 
             <Switch>
               {[
-                { route: URLS.SPEAK, Component: SpeakPage },
+                { route: URLS.ROOT, Component: SpeakPage },
                 { route: URLS.LISTEN, Component: ListenPage },
               ].map(({ route, Component }: any) => (
                 <Route
