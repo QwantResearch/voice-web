@@ -263,7 +263,7 @@ export default [
         {showShareModal && (
           <ShareModal
             title={<>Help us find more voices, share your goal</>}
-            text={`Share your ${state.amount} Clip ${goalType} Goal for 
+            text={`Share your ${state.amount} Clip ${goalType} Goal for
               ${
                 ({
                   speak: 'Speaking',
@@ -291,12 +291,12 @@ export default [
           <br />
           Return here to edit your goal anytime.
         </p>
-        <Button
+        {/* <Button
           rounded
           className="share-button"
           onClick={() => setShowShareModal(true)}>
           <ShareIcon /> Share my goal
-        </Button>
+        </Button> */}
         <CloseButton {...nextButtonProps} />
       </div>
     );

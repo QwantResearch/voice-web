@@ -139,7 +139,7 @@ function Success({ api, onReset, type, user }: Props) {
         />
       </div>
 
-      {hasAccount ? (
+      {/* {hasAccount ? (
         !customGoal && (
           <CustomGoalLock>
             <div className="info-card">
@@ -161,7 +161,7 @@ function Success({ api, onReset, type, user }: Props) {
             <LinkButton rounded href="/login" />
           </Localized>
         </div>
-      )}
+      )} */}
 
       <ContributeMoreButton>
         {type === 'speak' ? <MicIcon /> : <PlayOutlineIcon />}
@@ -170,11 +170,11 @@ function Success({ api, onReset, type, user }: Props) {
         </Localized>
       </ContributeMoreButton>
 
-      {hasAccount && (
+      {/* {hasAccount && (
         <Localized id="edit-profile">
           <LocaleLink className="secondary" to={URLS.PROFILE_INFO} />
         </Localized>
-      )}
+      )} */}
     </div>
   );
 }

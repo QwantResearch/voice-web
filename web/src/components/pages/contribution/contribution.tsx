@@ -271,11 +271,11 @@ class ContributionPage extends React.Component<Props, State> {
             ) : (
               <div />
             )}
-            {isSubmitted && (
+            {/* {isSubmitted && (
               <button className="open-share" onClick={this.toggleShareModal}>
                 <ShareIcon />
               </button>
-            )}
+            )} */}
           </div>
 
           {this.renderContent()}
