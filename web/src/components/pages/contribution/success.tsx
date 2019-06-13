@@ -123,21 +123,21 @@ function Success({ api, onReset, type, user }: Props) {
         </Localized>
       </div>
 
-      <Localized
+      {/* <Localized
         id={type === 'speak' ? 'goal-help-recording' : 'goal-help-validation'}
         goalPercentage={goalPercentage}
         $goalValue={goalValue}>
         <h1 />
-      </Localized>
+      </Localized> */}
 
-      <div className="progress">
+      {/* <div className="progress">
         <div
           className="done"
           style={{
             width: Math.min(finalPercentage, 100) + '%',
           }}
         />
-      </div>
+      </div> */}
 
       {/* {hasAccount ? (
         !customGoal && (
